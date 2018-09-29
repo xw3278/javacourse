@@ -24,8 +24,10 @@ public class HelloWorld {
 		System.out.println("float:" + f);
 		System.out.println("double:" + d);
 		//字符型
-		char c = 'a';
+		char c = 97;
+		char cex = 65;
 		System.out.println("char:" + c);
+		System.out.println("charex:" + cex);
 		//布尔型
 		boolean bl = false;
 		System.out.println("boolean:" + bl);
@@ -42,6 +44,31 @@ public class HelloWorld {
 		byte bt = 127;
 		bt = (byte)(x + bt);
 		System.out.println(bt);
+		
+		//程序员的表白
+		char c1 = 73;
+		char c2 = 76;
+		char c3 = 111;
+		char c4 = 118;
+		char c5 = 101;
+		char c6 = 89;
+		char c7 = 111;
+		char c8 = 117;
+		System.out.print(c1);
+		System.out.print(c2);
+		System.out.print(c3);
+		System.out.print(c4);
+		System.out.print(c5);
+		System.out.print(c6);
+		System.out.print(c7);
+		System.out.println(c8);
+		
+		//字符相加 & 字符与字符串相加
+		char aa = 'a';
+		char bbb = 'b';
+		System.out.println(aa + bbb);
+		System.out.println(aa + bbb + "hello");
+		System.out.println("hello" + aa + bbb);
 
 		
 	}
